@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-02-19 19:14:52" Modified_Date="2015-03-26 15:15:10" Creator="Christopher Malato" Comments="" ID="a3503b9e082703e82d0e4a8bc5fb8c25">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2015-02-19 19:14:52" Modified_Date="2015-04-07 14:38:33" Creator="Christopher Malato" Comments="" ID="e79988b6cc68717882ac4f00c69a5209">
   <Library_General_Settings>
     <Package_File_Name>clm_lib_local_messenger</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Library_Version>1.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\..\..\..\..\LabVIEW Data\LocalMessengerExports</Library_Output_Folder>
+    <Library_Output_Folder>..\..\..\export</Library_Output_Folder>
     <Company_Name>CLM</Company_Name>
     <Library_Summary/>
     <Library_License/>
@@ -253,7 +253,7 @@
         <Path>Priority Local Message</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>761A243595675D720C2076CF0FD542F1</GUID>
+      <GUID>88CF76E58DDDA492533B2EBA2D44BCE1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -330,7 +330,21 @@
         <Path>vi.lib\CLM\LocalMessenger\LocalMessage_Queue\ReadQueueMessage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1422DF6C96518AA42ADA7DE15CF5D742</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>CheckValidQueueReference.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>vi.lib\CLM\LocalMessenger\LocalMessage_Queue\CheckValidQueueReference.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>BA9230287EDA690029ACC44E92BFC25D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -407,7 +421,21 @@
         <Path>vi.lib\CLM\LocalMessenger\LocalMessage_UserEvent\GetEventRegRefnum.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CC88DCE194FAC61106D3A0A8DC85B541</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>CheckValidUserEventReference.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>vi.lib\CLM\LocalMessenger\LocalMessage_UserEvent\CheckValidUserEventReference.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>763B2B10430C91C06707DFAE292D0798</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -484,7 +512,21 @@
         <Path>vi.lib\CLM\LocalMessenger\PriorityLocalMessage\ReadMessage.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B34940C03FD4F63CB182E9A9ABC142C9</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>CheckValidReference.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>vi.lib\CLM\LocalMessenger\PriorityLocalMessage\CheckValidReference.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A07B1E28AF2ADFFAEDEB7BA11353BC45</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -575,7 +617,7 @@
         <Path>vi.lib\CLM\LocalMessenger\LocalMessage\Destroy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9D6B7A00B391A0858080DEB0AC83F3D9</GUID>
+      <GUID>CDC6B570A93DB76B351CFEF69DDB4D13</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
